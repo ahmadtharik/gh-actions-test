@@ -25,7 +25,7 @@ def divide(a: float, b: float) -> float:
 
 def reverse_string(s: str) -> str:
     """Reverse a string."""
-    return s[::-1]
+    return "".join(reversed(s))
 
 
 def is_palindrome(s: str) -> bool:

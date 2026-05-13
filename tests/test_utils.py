@@ -63,8 +63,11 @@ class TestStrings:
     def test_is_palindrome_case_insensitive(self):
         assert is_palindrome("RaceCar") is True
 
-    def test_is_palindrome_with_spaces(self):
+    def test_is_palindrome_simple(self):
         assert is_palindrome("tacocat") is True
+
+    def test_is_palindrome_with_spaces(self):
+        assert is_palindrome("A man a plan a canal Panama") is True
 
     def test_is_palindrome_empty(self):
         assert is_palindrome("") is True
